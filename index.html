@@ -4,13 +4,13 @@
         <meta name="descriprion" content="первый проект banana">
         <meta name="author" content="banana_developer">
         <meta charset="utf-8">
-        <title>Первый проект</title>
+        <title>Регистрация</title>
     </head>
     <body>
         <h2>Регистрация</h2>
         <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
-            <p> email <br/> <input type="email" name="email" autocomplete="on"/></p>
-            <p> password <br/> <input type="password" name="password"/></p>
+            <p> email <br/> <input type="email" name="email" placeholder="Введите email" required="on" autocomplete="on"/></p>
+            <p> password <br/> <input type="password" name="password" placeholder="Введите пароль" required="on"/></p>
             <p>
                 <button type="submit" formmethod="get", formaction="file.html">Отправить</button>
                 <button type="reset">Отмена</button>
