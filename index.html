@@ -9,8 +9,15 @@
     <body>
         <h2>Регистрация</h2>
         <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
-            <p> email <br/> <input type="email" name="email" placeholder="Введите email" required="on" autocomplete="on"/></p>
-            <p> password <br/> <input type="password" name="password" placeholder="Введите пароль" required="on"/></p>
+            <p>
+                <label for="email">Логин</label>
+                <input type="email" name="email" placeholder="Введите email" autocomplete="on" required id="email"/> 
+            </p>
+            <p>
+                <label for="email">Пароль</label>
+                <input type="password" name="password" placeholder="Введите пароль" required id="password"/>
+            </p>
+            
             <p>
                 <button type="submit" formmethod="get", formaction="file.html">Отправить</button>
                 <button type="reset">Отмена</button>
