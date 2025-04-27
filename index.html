@@ -7,11 +7,15 @@
         <title>Первый проект</title>
     </head>
     <body>
-        <div>
-            <h1>Википедия</h1>
-            <iframe src="https://wikipedia.com" width="400" height="200"
-            ></iframe>
-        </div>
+        <h2>Регистрация</h2>
+        <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
+            <p> email <br/> <input type="email" name="email" autocomplete="on"/></p>
+            <p> password <br/> <input type="password" name="password"/></p>
+            <p>
+                <button type="submit" formmethod="get", formaction="file.html">Отправить</button>
+                <button type="reset">Отмена</button>
+            </p>
+        </form>
     </body>
 
 <html>
