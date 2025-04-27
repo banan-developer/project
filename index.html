@@ -4,23 +4,24 @@
         <meta name="descriprion" content="первый проект banana">
         <meta name="author" content="banana_developer">
         <meta charset="utf-8">
-        <title>Регистрация</title>
+        <title>test</title>
     </head>
     <body>
-        <h2>Регистрация</h2>
-        <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
-            <p>
-                <label for="email">Логин</label>
-                <input type="email" name="email" placeholder="Введите email" autocomplete="on" required id="email"/> 
-            </p>
-            <p>
-                <label for="email">Пароль</label>
-                <input type="password" name="password" placeholder="Введите пароль" required id="password"/>
-            </p>
-            
-            <p>
-                <button type="submit" formmethod="get", formaction="file.html">Отправить</button>
-                <button type="reset">Отмена</button>
+        <h2>Авторизация</h2>
+        <form method="get">
+            <fieldset>
+                <legend>Введите данные</legend>
+
+                <label for="email">Логин:</label>
+                <input type="email"  id="email" required/><br/><br>
+
+                <label for="password" id="password">Пароль</label>
+                <input type="password"  id="password" required/><br><br>
+
+                <button type="submit" formaction="file.html" formmethod="get">Войти</button>
+                <button type="reset">Отменить</button>
+
+            </fieldset>
             </p>
         </form>
     </body>
