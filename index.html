@@ -7,23 +7,50 @@
         <title>test</title>
     </head>
     <body>
-        <h2>Авторизация</h2>
-        <form method="get">
-            <fieldset>
-                <legend>Введите данные</legend>
+        <header>
+            <nav>
+                <h2>Навигация</h2>
+                <ul>
+                    <li><a href="/">Главвная</a></li>
+                    <li><a href="/blog">Блог</a></li>
+                    <li><a href="/contact">Контакт</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h2>Рассказ в двух частях</h2>
+            <nav>
+                <ul>
+                    <li><a href="#part1">Часть 1</a></li>
+                    <li><a href="#part2">Часть 2</a></li>
+                </ul>
+            </nav>
+            <div>
+                <section id="part1">
+                    <h2>Часть 1</h2>
+                    <p>
+                        В соседней комнате зашумело женское платье. Как будто очнувшись, князь Андрей встряхнулся, и лицо его приняло то же выражение,
+                        какое оно имело в гостиной Анны Павловны. Пьер спустил ноги с дивана. Вошла княгиня. Она была уже в другом, домашнем, но столь
+                        же элегантном и свежем платье. Князь Андрей встал, учтиво подвигая ей кресло. 
+                    </p>
+                </section>
 
-                <label for="email">Логин:</label>
-                <input type="email"  id="email" required/><br/><br>
-
-                <label for="password" id="password">Пароль</label>
-                <input type="password"  id="password" required/><br><br>
-
-                <button type="submit" formaction="file.html" formmethod="get">Войти</button>
-                <button type="reset">Отменить</button>
-
-            </fieldset>
-            </p>
-        </form>
+                <section id="part2">
+                    <h2>Часть 2</h2>
+                    <p>
+                        Отчего, я часто думаю, — заговорила она, как всегда, по-французски, поспешно и хлопотливо усаживаясь в кресло, — отчего Анетне 
+                    вышла замуж? Как вы все глупы, messieurs, что на ней не женились. Вы меня извините, но вы ничего не понимаете в женщинах толку. 
+                    Какой вы спорщик, мсье Пьер!
+                    </p>
+                </section>
+            </div>
+        </article>
+        <footer>
+            <address>
+                Контакт для связи <a href="CleSStirSS@gmail.com">banana_developer</a>
+            </address>
+            <p>© copyright 2025 Banana inc.</p>
+        </footer>
     </body>
 
 <html>
