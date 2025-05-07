@@ -1,0 +1,100 @@
+            *{
+                box-sizing: border-box;
+            }
+
+            html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, 
+            ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                vertical-align: baseline;
+            }
+            
+            body{
+                font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-color: rgb(255, 255, 255);
+            }
+
+            #header{
+                background-color: #2E86AB;
+                border-bottom: 1px solid ;
+                height: 80px;
+                font-size: 18px;
+                color: #FFFFFF;
+            
+            }
+            #header h2{
+                padding: 30px 0 30px 20px;
+                font-size: 25px;
+            }
+           
+        
+            #wrapper{
+                background-color:  #2E86AB;
+                color: #FFFFFF;
+            }
+            ul.nav a{
+                display: inline-block;
+                width: 100px;
+                padding: 10px;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 4%);
+                border: 1px solid #333;
+                text-decoration: none;
+                text-align: center;
+                color: white
+                
+            }
+
+            .nav li{
+                display: inline;
+            }
+
+            #sidebar_1{
+                float: left;
+                width: 20%;
+                padding: 0 10px 0 20px;
+            }
+            #sidebar_2{
+                float: right;
+                width: 20%;
+                padding: 0 20px 0 10px;
+            }
+
+            #main{
+                background-color: rgb(255, 255, 255);
+                margin-left: 20%;
+                margin-right: 20%;
+                padding: 50px;
+                width: 60%;
+                color: #000000;
+                
+            }
+
+            #footer{
+                border-bottom: 2px solid black;
+                background-color:  hsl(0, 0%, 4%);
+                color: white;
+                padding-left: 622px;
+                margin-top: 10px;
+            }
+            #nav ul, #header h1, .wrapper, #footer p {
+                max-width: 1200px;
+                margin: 0 auto; 
+            }
+            .wrapper, #nav, #header, #footer{
+                min-width: 768px;
+            }
+            a:link{color:#FFFFFF;}
+            a:hover{color: rgb(203, 203, 203)}
+            #button{
+                margin-left: 715px;
+            }
+            #but{
+                background-color: #2E86AB;
+                color:#FFFFFF
+            }
+            #num{
+                margin-left: 380px;
+            }
