@@ -1,56 +1,68 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
     <head>
-        <meta name="descriprion" content="первый проект banana">
-        <meta name="author" content="banana_developer">
         <meta charset="utf-8">
-        <title>test</title>
+        <title>Сайт</title>
+        <style>
+           
+            body, h2, p{
+                padding: 0;
+                margin: 0;
+            }
+            #header{
+                background-color: rgb(202, 202, 202);
+                border-bottom: 3px solid gray;
+                height: 80px;
+                font-size: 18px;
+
+            }
+            #wrapper{
+                background-color: rgb(149, 151, 151);
+            }
+            #menu{
+                float: left;
+                background-color: rgb(149, 151, 151);
+                width: 150px;
+
+            }
+            #main{
+                border-bottom: 3px solid gray;
+                background-color: rgb(202, 202, 202);
+                height: 635px;
+                margin-left: 150px;
+                padding: 10px;
+            }
+
+            #footer{
+                border-bottom: 2px solid black;
+                background-color: rgb(202, 202, 202);
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <nav>
-                <h2>Навигация</h2>
+        <div id="header">
+            <h2>Сайт для фанов Войны и мира</h2>
+        </div>
+        <div id="wrapper">
+            <div id="menu">
                 <ul>
-                    <li><a href="/">Главвная</a></li>
-                    <li><a href="/blog">Блог</a></li>
-                    <li><a href="/contact">Контакт</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">О сайте</a></li>
                 </ul>
-            </nav>
-        </header>
-        <article>
-            <h2>Рассказ в двух частях</h2>
-            <nav>
-                <ul>
-                    <li><a href="#part1">Часть 1</a></li>
-                    <li><a href="#part2">Часть 2</a></li>
-                </ul>
-            </nav>
-            <div>
-                <section id="part1">
-                    <h2>Часть 1</h2>
-                    <p>
-                        В соседней комнате зашумело женское платье. Как будто очнувшись, князь Андрей встряхнулся, и лицо его приняло то же выражение,
-                        какое оно имело в гостиной Анны Павловны. Пьер спустил ноги с дивана. Вошла княгиня. Она была уже в другом, домашнем, но столь
-                        же элегантном и свежем платье. Князь Андрей встал, учтиво подвигая ей кресло. 
-                    </p>
-                </section>
-
-                <section id="part2">
-                    <h2>Часть 2</h2>
-                    <p>
-                        Отчего, я часто думаю, — заговорила она, как всегда, по-французски, поспешно и хлопотливо усаживаясь в кресло, — отчего Анетне 
-                    вышла замуж? Как вы все глупы, messieurs, что на ней не женились. Вы меня извините, но вы ничего не понимаете в женщинах толку. 
-                    Какой вы спорщик, мсье Пьер!
-                    </p>
-                </section>
             </div>
-        </article>
-        <footer>
-            <address>
-                Контакт для связи <a href="CleSStirSS@gmail.com">banana_developer</a>
-            </address>
-            <p>© copyright 2025 Banana inc.</p>
-        </footer>
+            <div id="main">
+                <h2>Отрывок из "Война и мир"</h2>
+                <p>
+                    В соседней комнате зашумело женское платье. Как будто очнувшись,
+                    князь Андрей встряхнулся, и лицо его приняло то же выражение, какое
+                    оно имело в гостиной Анны Павловны. Пьер спустил ноги с дивана. Вошла
+                    княгиня. Она была уже в другом, домашнем, но столь же элегантном и свежем
+                    платье. Князь Андрей встал, учтиво подвигая ей кресло.
+                </p>
+            </div>
+        </div>
+        <div id="footer">Copyright © VoynaImir.com, 2025</div>
     </body>
-
-<html>
+</html>
